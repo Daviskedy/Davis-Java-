@@ -1,0 +1,11 @@
+import java.util.Arrays; 
+
+public class ArraySort {
+    public static void main(String[] args) {
+        int[] numbers = { 29, 11, 6, 41, 3 };
+        System.out.println("Original array: " + Arrays.toString(numbers)); 
+        Arrays.sort(numbers);
+        System.out.println("Sorted array: " + Arrays.toString(numbers));
+    }
+
+}
